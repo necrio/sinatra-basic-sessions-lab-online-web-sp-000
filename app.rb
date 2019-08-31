@@ -4,7 +4,13 @@ class App < Sinatra::Base
   
   
   get '/' do 
-    erb :
+    erb :index 
+  end 
+  
+  post '/checkout' do 
+    
+    
+  end
   
   
   
